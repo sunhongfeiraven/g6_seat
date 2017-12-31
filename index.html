@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>网图编辑器（默认）</title>
+  <style>
+    ::-webkit-scrollbar {
+      display: none;
+    }
+
+    html,
+    body {
+      overflow: hidden;
+    }
+
+    #mountNode {
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="btns">
+    <button id="defaultModle">默认模式(选座)</button>
+    <button id="editModle">编辑模式(框选)</button>
+    <button id="save">保存</button>
+  </div>
+  <div id="mountNode"></div>
+  <script>/*Fixing iframe window.innerHeight 0 issue in Safari*/document.body.clientHeight;</script>
+  <script src="https://gw.alipayobjects.com/os/antv/assets/g6/1.2.1/g6.min.js"></script>
+  <script src="https://gw.alipayobjects.com/os/antv/assets/lib/jquery-3.2.1.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
